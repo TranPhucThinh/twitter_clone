@@ -1,4 +1,6 @@
 export const USER_MESSAGES = {
+  LOGIN_SUCCESS: 'Login success',
+  REGISTER_SUCCESS: 'Register success',
   VALIDATION_ERROR: 'Validation error',
   NAME_REQUIRED: 'Name is required',
   NAME_MUST_BE_STRING: 'Name must be a string',
@@ -16,5 +18,6 @@ export const USER_MESSAGES = {
   CONFIRM_PASSWORD_REQUIRED: 'Confirm password is required',
   CONFIRM_PASSWORD_MUST_BE_STRING: 'Confirm password must be a string',
   CONFIRM_PASSWORD_MISMATCH: 'Passwords do not match!',
-  DATE_OF_BIRTH_IS_ISO_STRING: 'Date of birth must be a valid ISO 8601 date string'
+  DATE_OF_BIRTH_IS_ISO_STRING: 'Date of birth must be a valid ISO 8601 date string',
+  USER_NOT_FOUND: 'User not found'
 }
